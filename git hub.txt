@@ -1,0 +1,75 @@
+simple calculator using if else 
+
+
+
+
+#include <stdio.h>
+
+void main()
+{
+    
+    int num1 , num2, cal;
+    char ope;
+    
+    
+    printf("Enter first number");
+    
+    scanf("%i", &num1);
+    
+    printf("Enter second number");
+    scanf("%i", &num2);
+    
+    printf("choose any operator: + | - | / | * \n");
+    
+    scanf(" %c", &ope);
+    
+    
+    if(ope == '-')
+    {
+        cal= num1 + num2;
+        
+        printf("Addition of two numbers is: %i",cal);
+    }
+    
+    else if(ope == '-')
+    {
+        cal= num1 - num2;
+        
+        printf("substraction of two numbers is: %i",cal);
+    }
+     
+    else if(ope == '/') 
+    {
+        cal= num1 / num2;
+        printf("Division of two numbers is: %i",cal);
+    }
+    
+    else if(ope =='*')
+    {
+        
+        cal= num1 * num2;
+        printf("Multiplication of two numbers is: %i",cal);
+    }
+    
+    cal= num1 * num2;
+    
+    
+    printf("Multiplication of two numbers is:%i ",cal);
+}
+
+
+else 
+{
+    
+    printf("Invalid input");
+}
+return 0;
+}
+
+    
+    
+    
+
+
+    
+
